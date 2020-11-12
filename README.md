@@ -6,18 +6,18 @@ Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)
 [Powerpoint of RPA 11.1 New Features Presentation](??????????????)  
 Ask your questions about Kofax RPA 11.1 at [community.kofax.com](https://community.kofax.com/)
 
-## Management Console
+## Management Console New Features
 * [User Management](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111) is permanently turned on. Default user is **admin**, password **admin**
 * New UI Management Console to conform with other Kofax IA products.
 * Scheduled Robot Priorities (advanced robot execution management)
 * More Japanese Localization.
-## Design Studio
+## Design Studio New Features
 * Localization of Desktop Automation and Installers into Japanese.
 * My Projects panel simplified.
 * Desktop Automation Robots can now be edited without the host Web Automation Robot open.
 * Bulk extraction of DAR from WAR in project tree, since RPA 11 requires them to be different files.
 * Process Discovery Improvements.
-## Web Automation Robot Features
+## Web Automation Robot New Features
 * [Enhanced Email Integration](https://github.com/KofaxRPA/RPA-11.1/blob/main/Enhanced%20Email%20Integration.md#enhanced-email-integration-in-kofax-rpa-111) to read incoming Email processing from GMail, Office365 or IMAP
 * Robots can now queue other robots, “fire and forget”. 
 ## Desktop Automation Robot Features
