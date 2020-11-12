@@ -16,7 +16,7 @@ You can also use this user to log into Design Studio, but you *should* create ot
 You can add LDAP for user management, and you should also create users and groups for the Roboservers, Synchronizers, MC Admins, Kapplet Admins, API access, Password Managers, Desktop Accounts, etc. See the documentation for further details.  
 See [Robot Lifecycle Management Guide](https://github.com/KofaxRPA/Robot-Lifecycle-Management-Guide/releases) for step-by-step instructions of creating many of these accounts.
 
-# Changing admin password.
+# Changing the admin password.
 * in MC you can change the admin password. XXXXXX
 * you will need to open Roboserver settings and add the password there
 * Open the Window sshortcut to start Management Console and remove **admin:admin@** from the URL.
