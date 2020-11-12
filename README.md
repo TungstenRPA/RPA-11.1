@@ -16,7 +16,7 @@ Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)
 * Bulk extraction of DAR from WAR in project tree, since RPA 11 requires them to be different files.
 * Process Discovery Improvements.
 ## Web Automation Robot Features
-* Incoming Email processing from GMail, Office365 or IMAP
+* [Enhanced Email Integration](https://github.com/KofaxRPA/RPA-11.1/blob/main/Enhanced%20Email%20Integration.md#enhanced-email-integration-in-kofax-rpa-111) to read incoming Email processing from GMail, Office365 or IMAP
 * Robots can now queue other robots, “fire and forget”. 
 ## Desktop Automation Robot Features
 * More KTA integration
