@@ -1,11 +1,14 @@
 # Kofax RPA 11.1
 Kofax RPA 11.1 was released on November 12, 2020 with 18 new features including reading emails from GMail & Office365, a brand new PDF viewer, Robot Priorities, Robot Queueing, and integration of [Kofax Omnipage OCR](https://www.kofax.com/Products/omnipage) into Intelligent Screen Automation.  
 
-[Online RPA 11.1 Documentation](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.1.0_vwsnqu4c9o/RPA.htm)  
-[Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
+[Kofax RPA 11.1 Documentation online](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.1.0_vwsnqu4c9o/RPA.htm)  
+[Kofax RPA 11.1 Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
 Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)  
+Download a free trial license for Kofax RPA at[https://www.kofax.com](https://www.kofax.com/Products/rpa/overview)
 [Powerpoint of RPA 11.1 New Features Presentation](??????????????)  
-Ask your questions about Kofax RPA at [community.kofax.com](https://community.kofax.com/)
+Ask your questions about Kofax RPA at [community.kofax.com](https://community.kofax.com/)  
+Find support answers about Kofax RPA at [knowledge.kofax.com](https://knowledge.kofax.com/Robotic_Process_Automation)  
+Download or upload community ssets for Kofax RPA at [smarthub.kofax.com](https://smarthub.kofax.com/apps/?product=Kofax+RPA)
 
 ## Management Console New Features
 * [User Management](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111) is permanently turned on. Default user is **admin**, password **admin**
