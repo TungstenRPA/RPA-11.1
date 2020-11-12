@@ -8,7 +8,7 @@ Download a free trial license for Kofax RPA at [www.kofax.com](https://www.kofax
 [Powerpoint of RPA 11.1 New Features Presentation](??????????????)  
 Ask your questions about Kofax RPA at [community.kofax.com](https://community.kofax.com/)  
 Find support answers about Kofax RPA at [knowledge.kofax.com](https://knowledge.kofax.com/Robotic_Process_Automation)  
-Download or upload community ssets for Kofax RPA at [smarthub.kofax.com](https://smarthub.kofax.com/apps/?product=Kofax+RPA)
+Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https://smarthub.kofax.com/apps/?product=Kofax+RPA)
 
 ## Management Console New Features
 * [User Management](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111) is permanently turned on. Default user is **admin**, password **admin**
