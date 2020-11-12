@@ -18,7 +18,7 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 ![image](https://user-images.githubusercontent.com/47416964/98919114-bf859e00-24ce-11eb-919e-8efbe5f60a8a.png)
 * Every XXXXX seconds Kofax RPA will check the email folder and move every email into the **processing** folder.
 * A robot will be queuedin Management Console with the entire email (headers, subject, text body, html body) given to the robot as text [eml](https://en.wikipedia.org/wiki/Email#Filename_extensions) which is in [MIME](https://en.wikipedia.org/wiki/MIME) format. You can see the Robot Queue in **ManagementConsole/TaskView**.
-> * Your robot MUST have one input variable with one input parameter with the type **Long Text**. The variable name, the type name and the parameter name can be anything. *You can also have a robot with no input, perhaps to tell a person to look in the "Finished" folder for any emails.*
+> Your robot MUST have one input variable with one input parameter with the type **Long Text**. The variable name, the type name and the parameter name can be anything. *You can also have a robot with no input, perhaps to tell a person to look in the "Finished" folder for any emails.*
 * If the robot succeeds then the email will be moved to **processed**, otherwise it will be moved to **error**      
 ## Build your email robot
 * In Design Studio run the first step to see your email in eml format.  
