@@ -4,9 +4,15 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 ## Configure Email Accounts in Management Console
 * Configure IMAP access to GMail, Office365 or IMAP as your email provider in **ManagementConsole/Settings/EmailAccounts**.  
 > *If you are using GMail you will need to create a [GMail App Password](https://support.google.com/accounts/answer/185833?hl=en)* to prevent security warnings from Google.
+* Press *Test* to ensure that it connects successfully. If it fails, check your password or firewall.
 ## Build a simple robot to get some emails in EML format.
-* You will need to get some email in EML format so that you can build your robot. This is solving the "chicken & egg" problem in that you need a robot to get an email but you need an email to build the robot.
+* You will need to get some emails in EML format so that you can build your robot. This is solving the "chicken & egg" problem in that you need a robot to get an email but you need an email to build the robot.
 * Start Development Database. This will be used to hold the emails you need for building the robot. You can easily delete them later in **ManagementConsole/DataView**.
+* Open Design Studio and create a New Web Robot called **Email_SaveToDatabase.robot**
+* Create a New Type called **EML.type** with one **Long Text** attribute called **Content**.
+* Add a variable of type **EML** to the robot. You must select **Global** and **Use as Input**.  
+![image](https://user-images.githubusercontent.com/47416964/98934364-409a6080-24e2-11eb-9599-26f3b945079d.png)
+
 * XXX link to sample robot
 * Drag a few sample emails, some with attachments and some without into the watched folder in your email program. Wait XXX seconds.
 * Leave the trigger running so that it responds to any new emails you put in the watch folder
