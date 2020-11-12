@@ -4,7 +4,7 @@ Kofax RPA 11.1 was released on November 12, 2020 with 18 new features including 
 [Kofax RPA 11.1 Documentation online](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.1.0_vwsnqu4c9o/RPA.htm)  
 [Kofax RPA 11.1 Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
 Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)  
-Download a free trial license for Kofax RPA at [www.kofax.com](https://www.kofax.com/Products/rpa/overview)  
+Download a free trial license for Kofax RPA **11.0** at [www.kofax.com](https://www.kofax.com/Products/rpa/overview)  
 [Powerpoint of RPA 11.1 New Features Presentation](??????????????)  
 Ask your questions about Kofax RPA at [community.kofax.com](https://community.kofax.com/)  
 Find support answers about Kofax RPA at [knowledge.kofax.com](https://knowledge.kofax.com/Robotic_Process_Automation)  
