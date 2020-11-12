@@ -2,7 +2,8 @@
 New features available in Kofax RPA 11.1 (November 12, 2020)  
 [Online RPA 11.1 Documentation](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.1.0_vwsnqu4c9o/RPA.htm)  
 [Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
-[RPA 11.1 New Features Presentation] (??????????????)
+Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)  
+[Powerpoint of RPA 11.1 New Features Presentation] (??????????????)
 ## Management Console
 * User Management is permanently turned on. Default user is **admin**, password **admin**
 * New UI Management Console to conform with other Kofax IA products.
@@ -14,4 +15,15 @@ New features available in Kofax RPA 11.1 (November 12, 2020)
 * Desktop Automation Robots can now be edited without the host Web Automation Robot open.
 * Bulk extraction of DAR from WAR in project tree, since RPA 11 requires them to be different files.
 * Process Discovery Improvements.
+## Web Automation Robot Features
+* Incoming Email processing from GMail, Office365 or IMAP
+* Robots can now queue other robots, “fire and forget”. 
+## Desktop Automation Robot Features
+* More KTA integration
+* Document Transformation has XValues for input
+* Chromium  screen resolution; more print to pdf settings; download management
+* Kofax Omnipage OCR Engine now in Desktop Automation’s Intelligent Screen Automation (ISA)
+* Desktop robots can now have devices passed as parameters
+* New PDF viewer in Desktop Automation
+* 60+ New Built-in Excel features
 
