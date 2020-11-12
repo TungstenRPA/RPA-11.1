@@ -5,7 +5,7 @@ Kofax RPA 11.1 was released on November 12, 2020 with 18 new features including 
 [Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
 Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)  
 [Powerpoint of RPA 11.1 New Features Presentation](??????????????)  
-Ask your questions about Kofax RPA 11.1 at [community.kofax.com](https://community.kofax.com/)
+Ask your questions about Kofax RPA at [community.kofax.com](https://community.kofax.com/)
 
 ## Management Console New Features
 * [User Management](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111) is permanently turned on. Default user is **admin**, password **admin**
