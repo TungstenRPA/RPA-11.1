@@ -1,9 +1,8 @@
 # Enhanced Email Integration in Kofax RPA 11.1
 Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Each email is processed individually by a robot. The robot has access to all headers including timestamps, sender, recipient and CC, subject, Text Body, HTML Body and **all** attachments, both images and files. On success the email is moved to a subfolder **Finshed**, otherwise to **Error**.
 
-# Getting Started Guide
 ## Configure Email Accounts in Management Console
-* Congiure IMAP access to GMail, Office365 or IMAP as your email provider in *ManagementConsole/Settings/EmailAccounts*.  
+* Configure IMAP access to GMail, Office365 or IMAP as your email provider in *ManagementConsole/Settings/EmailAccounts*.  
 > *If you are using GMail you will need to create a [GMail App Password](https://support.google.com/accounts/answer/185833?hl=en)* to prevent security warnings from Google.
 ## Build a simple robot to get some emails in EML format. (solving the chicken and the egg problem)
 * You will need to get some email in EML format so that you can build your robot.
