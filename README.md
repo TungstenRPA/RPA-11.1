@@ -5,7 +5,7 @@ New features available in Kofax RPA 11.1 (November 12, 2020)
 Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)  
 [Powerpoint of RPA 11.1 New Features Presentation] (??????????????)
 ## Management Console
-* User Management is permanently turned on. Default user is **admin**, password **admin**
+* [User Management](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111) is permanently turned on. Default user is **admin**, password **admin**
 * New UI Management Console to conform with other Kofax IA products.
 * Scheduled Robot Priorities (advanced robot execution management)
 * More Japanese Localization.
