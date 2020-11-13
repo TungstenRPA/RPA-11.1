@@ -28,7 +28,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 ## Desktop Automation Robot Features
 * More KTA integration
 * Document Transformation has XValues for input
-* Chromium  screen resolution; more print to pdf settings; download management
+* Chromium  screen resolution; more print to pdf settings; download management; javascript execution. *see presentation for details*
 * Kofax Omnipage OCR Engine now in Desktop Automation’s Intelligent Screen Automation (ISA)
 * Desktop robots can now have devices passed as parameters
 * New PDF viewer in Desktop Automation
