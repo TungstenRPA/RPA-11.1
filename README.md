@@ -15,9 +15,8 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 * [User Management](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111) is permanently turned on. Default user is **admin**, password **admin**
 * New UI Management Console to conform with other Kofax IA products.
 * Scheduled Robot Priorities (advanced robot execution management)
-* More Japanese Localization.
+* Japanese Localization of Installers, Desktop Automation, Design Studio and entire documentation.
 ## Design Studio New Features
-* Localization of Desktop Automation and Installers into Japanese.
 * My Projects panel simplified.
 * Desktop Automation Robots can now be edited without the host Web Automation Robot open.
 * Bulk extraction of DAR from WAR in project tree, since RPA 11 requires them to be different files.
