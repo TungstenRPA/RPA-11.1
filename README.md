@@ -30,6 +30,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 * Chromium  screen resolution; more print to pdf settings; download management; javascript execution. *see presentation for details*
 * Kofax Omnipage OCR Engine now in Desktop Automation’s Intelligent Screen Automation (ISA)
 * Desktop robots can now have devices passed as parameters
+* There is now a **focus** action for Windows Desktop Applications
 * New PDF viewer in Desktop Automation
 * 60+ New Built-in Excel features
 
