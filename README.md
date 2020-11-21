@@ -25,7 +25,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 * Robots can now read mail boxes in GMail, Office365 or IMAP. [Getting Started Guide to Reading Emails in Kofax RPA](https://github.com/KofaxRPA/RPA-11.1/blob/main/Enhanced%20Email%20Integration.md#enhanced-email-integration-in-kofax-rpa-111) 
 * Robots can now queue other robots, “fire and forget”. [Getting Started Guide to Robot Queueing](https://github.com/KofaxRPA/RPA-11.1/blob/main/RobotQueueing.md#robot-queueing-in-kofax-rpa)
 ## Desktop Automation Robot Features
-* More KTA integration
+* [Create documents and events](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_das_ktastep.html#c_das_ktastep) in Kofax Total Agility
 * Document Transformation has XValues for input
 * Chromium  screen resolution; more print to pdf settings; download management; javascript execution. *see presentation for details*
 * Kofax Omnipage OCR Engine now in Desktop Automation’s Intelligent Screen Automation (ISA) [Getting Started Guide to OmniPage in Kofax RPA11.1](https://github.com/KofaxRPA/RPA-11.1/blob/main/OmniPageOCR.md#omnipage-ocr)  
