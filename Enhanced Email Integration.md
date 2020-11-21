@@ -12,7 +12,9 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 * Create a New Type called **EML.type** with one **Long Text** attribute called **Content**.
 * Add a variable of type **EML** to the robot. You must select **Global** and **Use as Input**.  
 ![image](https://user-images.githubusercontent.com/47416964/98934364-409a6080-24e2-11eb-9599-26f3b945079d.png)
-* Download robot and type from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email)
+* Add a **Store in Database** Step.  
+![image](https://user-images.githubusercontent.com/47416964/99876058-9e226180-2bf4-11eb-9122-7cca0d598065.png)
+* Download the robot and type from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email)
 * Upload the robot to the Management Console.
 ## Configure *Email Triggers*
 * open **ManagementConsole/Repository/EmailTriggers**.  
