@@ -12,7 +12,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 [Feedback, errors and corrections](https://github.com/KofaxRPA/RPA-11.1/issues/new) are very welcome!  
 
 ## Management Console New Features
-* [User Management](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111) is permanently turned on. Default user is **admin**, password **admin**
+* User Management is permanently turned on. Default user is **admin**, password **admin**. [Getting Started Guide to User Management in Kofax RPA](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111)
 * New UI Management Console to conform with other Kofax IA products.
 * Scheduled Robot Priorities (advanced robot execution management)
 * Japanese Localization of Installers, Desktop Automation, Design Studio and [entire documentation](https://docshield.kofax.com/Portal/Products/ja_JA/RPA/11.1.0_vwsnqu4c9o/RPA.htm).
