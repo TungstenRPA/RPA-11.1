@@ -10,7 +10,7 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 * Run **Start Development Database** from the **Windows Menu/Kofax RPA 11.1** . This will be used to hold the emails you need for building the robot. You can easily delete them later in **ManagementConsole/DataView**.
 * Open Design Studio and create a New Web Robot called [**Email_SaveToDatabase.robot**](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email)
 * Create a New Type called **EML.type** with one **Long Text** attribute called **Content**.
-* Add a variable of type **EML** to the robot. You must select **Global** and **Use as Input**. *(You need to select **global**, so that RPA doesn't copy the entire email for every step of the robot - if your email has attachments this could use a vast amount of memory, and because the email content is unchanging there is no need for it to be a non-global variable. It needs to be an **input** because the Email Trigger will pass in the email as input to the robot)*  
+* Add a variable of type **EML** to the robot. You must select **Global** and **Use as Input**. *(You need to select **Global**, so that RPA doesn't copy the entire email for every step of the robot - if your email has attachments this could use a vast amount of memory, and because the email content is unchanging there is no need for it to be a non-global variable. It needs to be an **input** because the Email Trigger will pass in the email as input to the robot)*  
 ![image](https://user-images.githubusercontent.com/47416964/98934364-409a6080-24e2-11eb-9599-26f3b945079d.png)
 * Add a **Store in Database** Step.  
 ![image](https://user-images.githubusercontent.com/47416964/99876058-9e226180-2bf4-11eb-9122-7cca0d598065.png)
