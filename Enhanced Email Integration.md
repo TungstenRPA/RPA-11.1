@@ -41,7 +41,6 @@ You know have a few sample emails in the database.
 * Download robot **Email_LoadfromDatabase** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email). This robot loops through all of the emails you sent to RPA.  
 ![image](https://user-images.githubusercontent.com/47416964/99875974-f9a01f80-2bf3-11eb-8a4e-404af8a0fbf1.png)  
 This robot only shows the content of the emails and you can use it to build your solution. When your robot is ready for production you will need to delete the first two database steps.
-* Download the more sophisticated robot **Email_Process** that makes it much easier to deal with emails by splitting sender name from sender address, handles time zones.
 
 # Handling TimeZone conversions in Email DateStamp
 
