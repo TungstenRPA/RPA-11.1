@@ -36,8 +36,8 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 * A robot will be queued in Management Console with the entire email (headers, subject, text body, html body) given to the robot as text [eml](https://en.wikipedia.org/wiki/Email#Filename_extensions) which is in [MIME](https://en.wikipedia.org/wiki/MIME) format. You can see the Robot Queue in **ManagementConsole/TaskView**.
 
 * If the robot succeeds then the email will be moved to **Finished**, otherwise it will be moved to the **Error** folder.
-## Get your "saved emails ##
-You know have a few sample emails in the database
+## Get your "saved" emails ##
+You know have a few sample emails in the database.
 * Download robot **Email_LoadfromDatabase** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email). This robot loops through all of the emails you sent to RPA.  
 ![image](https://user-images.githubusercontent.com/47416964/99875974-f9a01f80-2bf3-11eb-8a4e-404af8a0fbf1.png)  
 This robot only shows the content of the emails and you can use it to build your solution. When your robot is ready for production you will need to delete the first two database steps.
