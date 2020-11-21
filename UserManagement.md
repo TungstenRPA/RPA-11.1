@@ -12,7 +12,7 @@ You can also use this user to log into Design Studio, but you *should* create ot
 ![image](https://user-images.githubusercontent.com/47416964/98922154-6ae42200-24d2-11eb-816c-b8dc9b6eb041.png)
 * Add the group **developers** to the Default Project with role **Developer** on the tab **Permissions**.
 * Add the group **roboservers** to the Default Project with role **Roboserver** on the tab **Permissions**.
-* You should also create various Admin accounts. See [Getting Started Guide to Robot Lifecycle Management](https://github.com/KofaxRPA/Robot-Lifecycle-Management-Guide/blob/master/README.md#getting-started-guide-to-robot-lifecycle-management) for complete details about all accounts required.
+* You should also create various Admin accounts. See [Getting Started Guide to Robot Lifecycle Management](https://github.com/KofaxRPA/Robot-Lifecycle-Management-Guide/blob/master/README.md#getting-started-guide-to-robot-lifecycle-management) for complete details about all accounts required.  
 ![image](https://user-images.githubusercontent.com/47416964/99874702-467ef880-2bea-11eb-8b60-d85dab5fc994.png)
 * You will need to add these roles to other projects as you create them.
 
