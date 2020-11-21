@@ -35,6 +35,8 @@ You know have a few sample emails in the database
 This robot only shows the content of the emails and you can use it to build your solution. When your robot is ready for production you will need to delete the first two database steps.
 * Download the more sophisticated robot **Email_Process** that makes it much easier to deal with emails by splitting sender name from sender address, handles time zones.
 
+# Handling TimeZone conversions in Email DateStamp
+
 * Kofax RPA doesn't handle the standard email date format out-of-the box. You will need to convert it in a number of steps.  
  > Mon, 12 Oct 2020 11:12:48 +0200        **Standard Email Date Format  dd MMM yyyy hh:mm:ss ±ZZZZ**  
  
