@@ -30,7 +30,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 * Chromium  screen resolution; more print to pdf settings; download management; javascript execution. *see presentation for details*
 * Kofax Omnipage OCR Engine now in Desktop Automation’s Intelligent Screen Automation (ISA) [Getting Started Guide to OmniPage in Kofax RPA11.1](https://github.com/KofaxRPA/RPA-11.1/blob/main/OmniPageOCR.md#omnipage-ocr)  
 * Desktop robots can now have devices passed as parameters
-* There is now a [**focus**](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_focus.html?h=focus) action for Windows Desktop Applications *no need to use ALT-TAB*
+* There is now a [**focus**](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_focus.html?h=focus) action for Windows Desktop Applications *(no need to use ALT-TAB)*
 * New [PDF viewer](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_pdfextract.html?h=pdf%20viewer) in Desktop Automation
 * Many New [Built-in Excel features](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_builtinexcel.html?h=built-in%20excel)
 
