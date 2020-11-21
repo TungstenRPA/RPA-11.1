@@ -1,1 +1,1 @@
-To download files directly from here, click on a file, select **RAW** and then press CTRL-S in your Browser.
+To download robots and types directly from GitHub, click on a robot file above, select **Raw** and then press CTRL-S in your Browser.
