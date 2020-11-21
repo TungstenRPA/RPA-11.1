@@ -26,7 +26,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 * Robots can now queue other robots, “fire and forget”. [Getting Started Guide to Robot Queueing](https://github.com/KofaxRPA/RPA-11.1/blob/main/RobotQueueing.md#robot-queueing-in-kofax-rpa)
 ## Desktop Automation Robot Features
 * [Create documents and events](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_das_ktastep.html#c_das_ktastep) in Kofax Total Agility
-* Document Transformation has XValues for input
+* Pass metadata to Document Transformation *[XValues](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_das_dtsstep.html?h=xvalues)*
 * Chromium  screen resolution; more print to pdf settings; download management; javascript execution. *see presentation for details*
 * Kofax Omnipage OCR Engine now in Desktop Automation’s Intelligent Screen Automation (ISA) [Getting Started Guide to OmniPage in Kofax RPA11.1](https://github.com/KofaxRPA/RPA-11.1/blob/main/OmniPageOCR.md#omnipage-ocr)  
 * Desktop robots can now have devices passed as parameters
