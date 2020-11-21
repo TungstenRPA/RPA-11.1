@@ -33,5 +33,12 @@ You know have a few sample emails in the database
 * Download robot **Email_LoadfromDatabase** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email). This robot loops through all of the emails you sent to RPA.  
 ![image](https://user-images.githubusercontent.com/47416964/99875974-f9a01f80-2bf3-11eb-8a4e-404af8a0fbf1.png)  
 This robot only shows the content of the emails and you can use it to build your solution. When your robot is ready for production you will need to delete the first two database steps.
-* In Design Studio run the first step to see your email in eml format.  
-![image](https://user-images.githubusercontent.com/47416964/98920537-81897980-24d0-11eb-8bde-08c618ca9ed3.png)
+* Download the more sophisticated robot **Email_Process** that makes it much easier to deal with emails by splitting sender name from sender address, handles time zones.
+
+* Kofax RPA doesn't handle the standard email date format out-of-the box. You will need to convert it in a number of steps.  
+> Mon, 12 Oct 2020 11:12:48 +0200  
+> Mon, 12 Oct 2020 11:12:48  GMT+02:00  
+> Mon, 12 Oct 2020 11:12:48  CET  
+> 2020-10-12 09:12:48.0    
+![image](https://user-images.githubusercontent.com/47416964/99877542-476e5500-2bff-11eb-96a0-f8aed0374679.png)
+
