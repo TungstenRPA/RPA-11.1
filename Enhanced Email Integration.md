@@ -36,10 +36,10 @@ This robot only shows the content of the emails and you can use it to build your
 * Download the more sophisticated robot **Email_Process** that makes it much easier to deal with emails by splitting sender name from sender address, handles time zones.
 
 * Kofax RPA doesn't handle the standard email date format out-of-the box. You will need to convert it in a number of steps.  
-> Mon, 12 Oct 2020 11:12:48 +0200        **Standard Email Date Format  dd MMM yyyy hh:mm:ss ±ZZZZ ** 
-> Mon, 12 Oct 2020 11:12:48  GMT+02:00   **Timezone format**
-> Mon, 12 Oct 2020 11:12:48  CET         **Format that RPA Date Extractor understands for timezone conversion**  
-> 2020-10-12 09:12:48.0                  **Universal Date Format**  
+ > Mon, 12 Oct 2020 11:12:48 +0200        **Standard Email Date Format  dd MMM yyyy hh:mm:ss ±ZZZZ ** 
+ > Mon, 12 Oct 2020 11:12:48  GMT+02:00   **Timezone format**
+ > Mon, 12 Oct 2020 11:12:48  CET         **Format that RPA Date Extractor understands for timezone conversion**  
+ > 2020-10-12 09:12:48.0                  **Universal Date Format**  
   
 ![image](https://user-images.githubusercontent.com/47416964/99877542-476e5500-2bff-11eb-96a0-f8aed0374679.png)
 
