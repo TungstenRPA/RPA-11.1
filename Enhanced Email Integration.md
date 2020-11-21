@@ -8,23 +8,28 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 ## Build a simple robot to get some emails in EML format.
 * You will need to get some emails in EML format so that you can build your robot. This is solving the "chicken & egg" problem in that you need a robot to get an email but you need an email to build the robot.
 * Run **Start Development Database** from the **Windows Menu/Kofax RPA 11.1** . This will be used to hold the emails you need for building the robot. You can easily delete them later in **ManagementConsole/DataView**.
-* Open Design Studio and create a New Web Robot called **Email_SaveToDatabase.robot**
+* Open Design Studio and create a New Web Robot called [**Email_SaveToDatabase.robot**](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email)
 * Create a New Type called **EML.type** with one **Long Text** attribute called **Content**.
 * Add a variable of type **EML** to the robot. You must select **Global** and **Use as Input**.  
 ![image](https://user-images.githubusercontent.com/47416964/98934364-409a6080-24e2-11eb-9599-26f3b945079d.png)
-* XXX link to sample robot
-* Drag a few sample emails, some with attachments and some without into the watched folder in your email program. Wait XXX seconds.
-* Leave the trigger running so that it responds to any new emails you put in the watch folder
+* Download robot and type from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email)
+* Upload the robot to the Management Console.
 ## Configure *Email Triggers*
 * open **ManagementConsole/Repository/EmailTriggers**.  
 ![EmailTriggers](https://user-images.githubusercontent.com/47416964/98917769-10949280-24cd-11eb-9e4d-e007bb35ded2.png)
 * Select an Email account, robot and Email Folder for the trigger.
 * When Kofax RPA runs the Trigger for the first time it will create subfolders **Processing**, **Finished** and **Error** in the email folder you chose.  *These names are currently not localizable*.  
 ![image](https://user-images.githubusercontent.com/47416964/98919114-bf859e00-24ce-11eb-919e-8efbe5f60a8a.png)
-* Every XXXXX seconds Kofax RPA will check the email folder and move every email into the **processing** folder.
-* A robot will be queuedin Management Console with the entire email (headers, subject, text body, html body) given to the robot as text [eml](https://en.wikipedia.org/wiki/Email#Filename_extensions) which is in [MIME](https://en.wikipedia.org/wiki/MIME) format. You can see the Robot Queue in **ManagementConsole/TaskView**.
+* Drag a few sample emails, some with attachments and some without into the watched folder in your email program. Wait 10 seconds.
+* Leave the trigger running so that it responds to any new emails you put in the watch folder.
+* Every 10 seconds Kofax RPA will check the email folder and move every email into the **processing** folder.
+* A robot will be queued in Management Console with the entire email (headers, subject, text body, html body) given to the robot as text [eml](https://en.wikipedia.org/wiki/Email#Filename_extensions) which is in [MIME](https://en.wikipedia.org/wiki/MIME) format. You can see the Robot Queue in **ManagementConsole/TaskView**.
 > *Your robot MUST have one input variable with one input parameter with the type **Long Text**. The variable name, the type name and the parameter name can be anything. You can also have a robot with no input, perhaps to tell a person to look in the "Finished" folder for any emails.*
 * If the robot succeeds then the email will be moved to **Finished**, otherwise it will be moved to the **Error** folder.
-## Build your email robot
+## Get your "saved emails ##
+You know have a few sample emails in the database
+* Download robot **Email_LoadfromDatabase** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email). This robot loops through all of the emails you sent to RPA.  
+![image](https://user-images.githubusercontent.com/47416964/99875974-f9a01f80-2bf3-11eb-8a4e-404af8a0fbf1.png)  
+This robot only shows the content of the emails and you can use it to build your solution. When your robot is ready for production you will need to delete the first two database steps.
 * In Design Studio run the first step to see your email in eml format.  
 ![image](https://user-images.githubusercontent.com/47416964/98920537-81897980-24d0-11eb-8bde-08c618ca9ed3.png)
