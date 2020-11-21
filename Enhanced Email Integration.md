@@ -55,7 +55,7 @@ Kofax RPA doesn't handle the standard email date format out-of-the box. You will
 * **Date Converter** with pattern **dd MM yyyy HH:mm:ss Z** configured for timezone conversion.  
  ![image](https://user-images.githubusercontent.com/47416964/99877542-476e5500-2bff-11eb-96a0-f8aed0374679.png)
 
- > 2020-10-12 09:12:48.0                  **Universal Date Format**  (Note that 2 hours have been subtracted for the time zone)
+ > 2020-10-12 09:12:48.0                  **Unambigous language-independent and time-zone independent Date Format YYYY-MM-DD hh:mm:ss.s used by Kofax RPA internally**  (Note that 2 hours have been subtracted for the time zone)
   
 ![image](https://user-images.githubusercontent.com/47416964/99877542-476e5500-2bff-11eb-96a0-f8aed0374679.png)
 
