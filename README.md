@@ -32,5 +32,5 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 * Desktop robots can now have devices passed as parameters
 * There is now a [**focus**](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_focus.html?h=focus) action for Windows Desktop Applications
 * New PDF viewer in Desktop Automation
-* 60+ New Built-in Excel features
+* Many New [Built-in Excel features](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/help/kap_help/designstudio/c_builtinexcel.html?h=built-in%20excel)
 
