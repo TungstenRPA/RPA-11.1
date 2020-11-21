@@ -22,9 +22,16 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 * Select an Email account, robot and Email Folder for the trigger.
 * When Kofax RPA runs the Trigger for the first time it will create subfolders **Processing**, **Finished** and **Error** in the email folder you chose.  *These names are currently not localizable*.  
 ![image](https://user-images.githubusercontent.com/47416964/98919114-bf859e00-24ce-11eb-919e-8efbe5f60a8a.png)
-* Drag a few sample emails, some with attachments and some without into the watched folder in your email program. Wait 10 seconds.
+* Drag a few sample emails, some with attachments and some without into the watched folder in your email program. Wait up to 2 minutes.
 * Leave the trigger running so that it responds to any new emails you put in the watch folder.
-* Every 10 seconds Kofax RPA will check the email folder and move every email into the **processing** folder.
+* Every 2 minutes Kofax RPA will check the email folder and move every email into the **processing** folder.  
+*If you have installed Kofax RPA on Tomcat you can change this polling interval in **mc-service.xml**.* 
+```xml
+<bean id="robotEmailApplication" class="com.kapowtech.plugging.robotrigger.email.RobotEmailApplication">
+      <constructor-arg ref="robotEmailApplicationConfig"/>
+      <constructor-arg name="runInterval" value="2"/>
+</bean>
+```
 * A robot will be queued in Management Console with the entire email (headers, subject, text body, html body) given to the robot as text [eml](https://en.wikipedia.org/wiki/Email#Filename_extensions) which is in [MIME](https://en.wikipedia.org/wiki/MIME) format. You can see the Robot Queue in **ManagementConsole/TaskView**.
 > *Your robot MUST have one input variable with one input parameter with the type **Long Text**. The variable name, the type name and the parameter name can be anything. You can also have a robot with no input, perhaps to tell a person to look in the "Finished" folder for any emails.*
 * If the robot succeeds then the email will be moved to **Finished**, otherwise it will be moved to the **Error** folder.
