@@ -23,7 +23,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 * Process Discovery Improvements.
 ## Web Automation Robot New Features
 * Robots can now read mail boxes in GMail, Office365 or IMAP. [Getting Started Guide to Reading Emails in Kofax RPA](https://github.com/KofaxRPA/RPA-11.1/blob/main/Enhanced%20Email%20Integration.md#enhanced-email-integration-in-kofax-rpa-111) 
-* Robots can now queue other robots, “fire and forget”. [Getting Started Guide to Robot Queueing XXX](??)
+* Robots can now queue other robots, “fire and forget”. [Getting Started Guide to Robot Queueing](https://github.com/KofaxRPA/RPA-11.1/blob/main/RobotQueueing.md#robot-queueing-in-kofax-rpa)
 ## Desktop Automation Robot Features
 * More KTA integration
 * Document Transformation has XValues for input
