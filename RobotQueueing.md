@@ -2,6 +2,15 @@
 
 Kofax RPA 11.1 introduces Robot Queueing. You can now push a robot onto the robot queue with any input paramaters from other Robots or from any other program that supports [REST Service Calls](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
+* Download **QueueRobot.robot**, **Queue.type** and **Test Robot** from [here]
+* **Test.robot** has 3 inputs (text, number and image) and simply writes the values to the log  
+![image](https://user-images.githubusercontent.com/47416964/99886070-ed3eb580-2c39-11eb-986e-ac73f698e54a.png) ![image](https://user-images.githubusercontent.com/47416964/99886078-fb8cd180-2c39-11eb-9948-10249df9a092.png)
+
+
+![image](https://user-images.githubusercontent.com/47416964/99885930-e794a000-2c38-11eb-9074-b21bc479bc88.png)  
+*This robot
+
+
 
 ## Swagger UI
 
