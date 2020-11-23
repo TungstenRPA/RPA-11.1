@@ -28,7 +28,7 @@ See the Robot Step **Set Robot Input - Image** to see how to convert an image to
 * **Test.robot** has 3 inputs (text, number and image) and simply writes the values to the log  
 ![image](https://user-images.githubusercontent.com/47416964/99886070-ed3eb580-2c39-11eb-986e-ac73f698e54a.png) ![image](https://user-images.githubusercontent.com/47416964/99886078-fb8cd180-2c39-11eb-9948-10249df9a092.png)
 ![image](https://user-images.githubusercontent.com/47416964/99885930-e794a000-2c38-11eb-9074-b21bc479bc88.png)  
-Here you can see how the text "hello", the number 64, and the image are added to the JSON  
+Here you can see how the text "hello", the number 65, and the image are added to the JSON  
 ![image](https://user-images.githubusercontent.com/47416964/100009838-ab477800-2dcf-11eb-9083-85b369a97f49.png)  
 
 ## Swagger UI
