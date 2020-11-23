@@ -9,18 +9,22 @@ Robot Queueing has three steps
 * Call **mc/tasks/queueRobot** to queue your robot. This returns a ticket number for robot tracking.
 * Optionally call **/mc/tasks/getRobotOutput/{ticket}** to see the robot progress (**Queued, Running, Finished, Error**) or its results if it has finished.
 
+You can download the sample **QueueRobot.robot**, **Queue.type** and **Test Robot** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/QueueRobot)
+
 ## Base64 encoding
 Robot Queuing is quite easy, but you have to be careful of two things.
-* You must use *pre-emptive* simple authentication (This has been fixed in Kofax RPA 11.2). You cannot enter credentials here,  
+* You must use *pre-emptive* (Basic Access Authentication)[https://en.wikipedia.org/wiki/Basic_access_authentication#Client_side].  
+You cannot enter credentials here, (but this will be fixed in RPA 11.2)  
 ![image](https://user-images.githubusercontent.com/47416964/100008521-daf58080-2dcd-11eb-9d87-3cac1f88c76a.png)  
-you must base64 encode them and enter them here  
+you must [Base64 encode](https://en.wikipedia.org/wiki/Base64#Examples) them and enter them here  
 ![image](https://user-images.githubusercontent.com/47416964/100008642-fe203000-2dcd-11eb-8480-9eedbac12d7d.png)bb
 The 4th line is to add **Authorization: Basic** before the Text.
 
-You must also [Base64 encode](https://en.wikipedia.org/wiki/Base64#Examples) any binary attachments to robots, eg PDF, Zip, Images, Excel, MP4, MP3, etc.
+You must also [Base64 encode](https://en.wikipedia.org/wiki/Base64#Examples) any binary attachments to robots, eg PDF, Zip, Images, Excel, MP4, MP3, etc.   
+See the Robot Step **Set Robot Input - Image** to see how to convert an image to Base64 and add it to the robot input.  
+![image](https://user-images.githubusercontent.com/47416964/100009065-9dddbe00-2dce-11eb-81d4-225c5e8bd36f.png)  
+![image](https://user-images.githubusercontent.com/47416964/100009145-bc43b980-2dce-11eb-90f9-1554a401803e.png)
 
-
-You can Download **QueueRobot.robot**, **Queue.type** and **Test Robot** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/QueueRobot)
 
 
 * **Test.robot** has 3 inputs (text, number and image) and simply writes the values to the log  
