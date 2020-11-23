@@ -17,8 +17,8 @@ Robot Queuing is quite easy, but you have to be careful of two things.
 You cannot enter credentials here, (but this will be fixed in RPA 11.2)  
 ![image](https://user-images.githubusercontent.com/47416964/100008521-daf58080-2dcd-11eb-9d87-3cac1f88c76a.png)  
 you must [Base64 encode](https://en.wikipedia.org/wiki/Base64#Examples) them and enter them here  
-![image](https://user-images.githubusercontent.com/47416964/100008642-fe203000-2dcd-11eb-8480-9eedbac12d7d.png)bb
-The 4th line is to add **Authorization: Basic** before the Text.
+![image](https://user-images.githubusercontent.com/47416964/100008642-fe203000-2dcd-11eb-8480-9eedbac12d7d.png)  
+The 4th converter adds **Authorization: Basic** before the Text.
 
 You must also [Base64 encode](https://en.wikipedia.org/wiki/Base64#Examples) any binary attachments to robots, eg PDF, Zip, Images, Excel, MP4, MP3, etc.   
 See the Robot Step **Set Robot Input - Image** to see how to convert an image to Base64 and add it to the robot input.  
