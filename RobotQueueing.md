@@ -25,16 +25,10 @@ See the Robot Step **Set Robot Input - Image** to see how to convert an image to
 ![image](https://user-images.githubusercontent.com/47416964/100009065-9dddbe00-2dce-11eb-81d4-225c5e8bd36f.png)  
 ![image](https://user-images.githubusercontent.com/47416964/100009145-bc43b980-2dce-11eb-90f9-1554a401803e.png)
 
-
-
 * **Test.robot** has 3 inputs (text, number and image) and simply writes the values to the log  
 ![image](https://user-images.githubusercontent.com/47416964/99886070-ed3eb580-2c39-11eb-986e-ac73f698e54a.png) ![image](https://user-images.githubusercontent.com/47416964/99886078-fb8cd180-2c39-11eb-9948-10249df9a092.png)
 
-
 ![image](https://user-images.githubusercontent.com/47416964/99885930-e794a000-2c38-11eb-9074-b21bc479bc88.png)  
-*This robot
-
-
 
 ## Swagger UI
 
