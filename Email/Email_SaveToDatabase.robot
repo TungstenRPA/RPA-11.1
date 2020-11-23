@@ -39,9 +39,9 @@
           <property name="Content" class="AttributeAssignment">
             <property name="attributeValue" class="String">MIME-Version: 1.0
 Date: Mon, 12 Oct 2020 11:12:48 +0200
-Message-ID: &lt;CADRmAZnvhS6SF1SE_haQUZOrXGQXMdAyFMzp+vWuwyecHjyNVg@mail.gmail.com&gt;
+Message-ID: &lt;CADRmAZnvhS6SasasdfkjWQEROrXGQXMdAyFMzp+vWuwyecHjyNVg@mail.gmail.com&gt;
 Subject: Merhaba
-From: Idjles Erle &lt;idjles@gmail.com&gt;
+From: Erik Able &lt;Erik@gmail.com&gt;
 To: =?UTF-8?Q?B=C3=BClent?= &lt;bulent@gmail.com&gt;
 Content-Type: multipart/alternative; boundary="000000000000c3c7de05b175b3ea"
 
