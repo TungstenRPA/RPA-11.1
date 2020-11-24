@@ -1,6 +1,8 @@
 # Kofax RPA 11.1
 Kofax RPA 11.1 was released on November 12, 2020 with 18 new features including reading emails from GMail & Office365, a brand new PDF viewer, Robot Priorities, Robot Queueing, and integration of [Kofax Omnipage OCR](https://www.kofax.com/Products/omnipage) into Intelligent Screen Automation.  
 
+[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.1.txt) in RPA 11.1, Fix Pack 1, November 15, 2020  
+
 [Kofax RPA 11.1 Documentation online](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.1.0_vwsnqu4c9o/RPA.htm)  
 [Kofax RPA 11.1 Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
 Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)  
