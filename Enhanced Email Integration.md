@@ -21,6 +21,7 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 * open **ManagementConsole/Repository/EmailTriggers**.  
 ![EmailTriggers](https://user-images.githubusercontent.com/47416964/98917769-10949280-24cd-11eb-9e4d-e007bb35ded2.png)
 * Select an Email account, robot and Email Folder for the trigger.
+> NOTE!! Some Email servers, like Domino do not support Subfolders in the **Inbox**. Try to manually create a subfolder in your mail application to check if your chosen watch folder is compatible with Kofax RPA. If your Inbox is not, then create another folder for the emails and make an email rule to move all inbox emails to the other folder.
 * When Kofax RPA runs the Trigger for the first time it will create subfolders **Processing**, **Finished** and **Error** in the email folder you chose.  *These names are currently not localizable*.  
 ![image](https://user-images.githubusercontent.com/47416964/98919114-bf859e00-24ce-11eb-919e-8efbe5f60a8a.png)
 * Drag a few sample emails, some with attachments and some without into the watched folder in your email program. Wait up to 2 minutes.
