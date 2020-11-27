@@ -43,6 +43,22 @@ You know have a few sample emails in the database.
 ![image](https://user-images.githubusercontent.com/47416964/99875974-f9a01f80-2bf3-11eb-8a4e-404af8a0fbf1.png)  
 This robot only shows the content of the emails and you can use it to build your solution. When your robot is ready for production you will need to delete the first two database steps.
 
+# Handling Character Encoding Problems in Subject and Sender
+
+If the subject, sender or recipient fields contain non-ASCII characters they will be encoded in either [Quoted-Printable](https://en.wikipedia.org/wiki/Quoted-printable) or [Base64](https://en.wikipedia.org/wiki/Base64) encoding.  
+For example you might see this  
+> Subject: =?utf-8?**Q**?Sch=C3=B6nen Tag?=  
+
+or  
+> Subject: =?utf-8?**B**?U2Now7ZuZW4gVGFn?=  
+
+instead of this  
+> Subject: Schönen Tag  
+
+The robot [SubjectDecode.robot](Email) correctly decodes UTF-8 **Q**uotable and UTF-8 **B**ase64 versions, and generates an error for other encodings.(You can extend the robot to support other encodings that you encounter in your emails, by adding further try branches to your robots)  
+![image](https://user-images.githubusercontent.com/47416964/100441567-f949cd80-30a6-11eb-98ff-e4e0092dbb65.png)
+
+
 # Handling TimeZone conversions in Email Timestamps
 
 Kofax RPA doesn't handle the standard email date format out-of-the box. You will need to convert it with a number of Converters  
