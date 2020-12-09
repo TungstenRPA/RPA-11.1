@@ -27,10 +27,17 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
 ![image](https://user-images.githubusercontent.com/47416964/101612429-eb7f3b00-3a0a-11eb-9822-23274735f2e8.png)
 1. Delete the SQL statement that is there. *We will use this SQL window to create all the Kapplet Tables in the Development Database*.  
 ![image](https://user-images.githubusercontent.com/47416964/101612548-0fdb1780-3a0b-11eb-9501-3e5e322a96ca.png)
-1. 
 1. Open the folder "C:\Program Files\Kofax RPA 11.1.0.0 287 x64\documentation\sql\kapplets\derby" to find the sql scripts needed to create the Kapplets database.  
 ![image](https://user-images.githubusercontent.com/47416964/101610264-4b281700-3a08-11eb-8fed-032815e6614b.png)
-1. 
+1. Right-click on **create-kapplets.sql** and Open with Notepad.  
+![image](https://user-images.githubusercontent.com/47416964/101623690-1d979980-3a19-11eb-96bf-6e088d37490a.png)
+1. Copy the text and paste into **Generated SQL Statement** in Design Studio  
+![image](https://user-images.githubusercontent.com/47416964/101623832-47e95700-3a19-11eb-9046-b9cfcb2cd598.png)
+1. Copy and Paste  **create-quartz.sql** and **create-session.sql** as well into the **Generated SQL Statement** window.
+1. Click the **Execute** button. The Window will close if there were no errors.  
+![image](https://user-images.githubusercontent.com/47416964/101623938-7bc47c80-3a19-11eb-88b5-e5436fac0448.png)
+
+
 ## Configuring the Kapplets files
 ## Starting Kapplets
 ## Further Steps
