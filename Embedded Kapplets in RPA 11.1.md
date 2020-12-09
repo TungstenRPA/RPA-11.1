@@ -1,6 +1,6 @@
 # Kapplets in "Embedded" mode in Kofax RPA 11.1
-Kapplets can be run in Kofax RPA 11.1 in "Stand alone" mode. This uses the Development Database that is preinstalled in Kofax RPA.  
-The [Development Database](http://localhost:8080/kapplets) is useful for learning Kofax RPA and experimenting with your **Non Production** license, but it is not an database intended for production. Do not use "stand alone" mode in production.
+Kapplets can be run in Kofax RPA 11.1 in "embedded" mode. This uses the Development Database that is preinstalled in Kofax RPA.  
+The [Development Database](http://localhost:8080/kapplets) is useful for learning Kofax RPA and experimenting with your **Non Production** license, but it is not a database intended for production. Do not use "stand alone" mode in production.
 You will see this warning every time you start Management Console in "embedded" mode.
 >> WARNING: running the MC embedded is deprecated and *not* intended for production usage, refer to the Administrators Guide for information about how to install in a Tomcat instance or run the MC in a Docker container.
 For production you need to install Kofax RPA and Kapplets inside Apache Tomcat and use an enterprise class SQL Database.
