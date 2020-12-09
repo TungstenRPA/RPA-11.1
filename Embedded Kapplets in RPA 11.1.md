@@ -48,12 +48,13 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
 # 2. Start kapplets.bat as administrator
 #Kapplets address is http://localhost:8080/kapplets
 
+# Kapplets Database Connection
 spring.datasource.url=jdbc:derby://localhost:1527/objectdb;create=false
 spring.datasource.username=kapow
 spring.datasource.password=kapow
 spring.datasource.driverClassName=org.apache.derby.jdbc.ClientDriver
 
-#e.g. http://<mc-host>:8080/ManagementConsole
+# Management Console Connection
 kapplets.services.mc.connection.url=http://localhost:50080/
 kapplets.services.mc.connection.username=admin
 kapplets.services.mc.connection.password=admin
