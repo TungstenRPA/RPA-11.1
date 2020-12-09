@@ -41,7 +41,7 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
 ## Configuring the Kapplets files
 1. Create the Folder **kapplets** in your Kofax RPA installation folder.  
 ![image](https://user-images.githubusercontent.com/47416964/101624156-d3fb7e80-3a19-11eb-8d55-0067e0d59921.png)
-1. Create the file **application.config** in the kapplets Folder and give it the following content.  
+1. Create the file **application.properties** in the kapplets Folder and give it the following content.  
 ```
 #"Embedded" Kapplets using Development Database
 # 1. Start Development Database
@@ -94,7 +94,7 @@ management.endpoint.logfile.external-file=logs/server.log
 ![image](https://user-images.githubusercontent.com/47416964/101625373-9861b400-3a1b-11eb-84b2-9a8fe9bf8ab0.png)
 
 ## Further Steps
-1. Create Kapplet Admins in Management Console and login with them. Don't use the admin/admin user to manage Kapplets. Change the username and password in **application.config**
+1. Create Kapplet Admins in Management Console and login with them. Don't use the admin/admin user to manage Kapplets. Change the username and password in **application.properties**
 >> kapplets.services.mc.connection.username=admin
 >> kapplets.services.mc.connection.password=admin
 1. Install Kapplets into Apache Tomcat
