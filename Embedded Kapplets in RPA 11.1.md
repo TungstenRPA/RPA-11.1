@@ -25,7 +25,7 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
 ![image](https://user-images.githubusercontent.com/47416964/101610355-6eeb5d00-3a08-11eb-824c-b76f39f29152.png)
 1. Select **objectdb (Development Database)**. Select any type - it doesn't matter and click **Generate SQL**.  
 ![image](https://user-images.githubusercontent.com/47416964/101612429-eb7f3b00-3a0a-11eb-9822-23274735f2e8.png)
-1. Delete the SQL statement that is there. *We will use this SQL window to create all the Kapplet Tables*.  
+1. Delete the SQL statement that is there. *We will use this SQL window to create all the Kapplet Tables in the Development Database*.  
 ![image](https://user-images.githubusercontent.com/47416964/101612548-0fdb1780-3a0b-11eb-9501-3e5e322a96ca.png)
 1. 
 1. Open the folder "C:\Program Files\Kofax RPA 11.1.0.0 287 x64\documentation\sql\kapplets\derby" to find the sql scripts needed to create the Kapplets database.  
