@@ -76,11 +76,11 @@ kapplets.services.execution.purge.timeout=365
 logging.file=logs/kapplets.log
 management.endpoint.logfile.external-file=logs/server.log
 ```
-1. Create the file **kapplets.bat** in the Kapplets Folder and give it the following content.
+3. Create the file **kapplets.bat** in the Kapplets Folder and give it the following content.
   ```
 "%~dp0%..\jre\bin\java.exe" -jar kapplets.war 
 ```
-1. Create the Folder **lib** in your Kapplets folder.  
+4. Create the Folder **lib** in your Kapplets folder.  
 ![image](https://user-images.githubusercontent.com/47416964/101624461-3ce2f680-3a1a-11eb-897e-85a3de243d53.png)
 1. Copy the file **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\lib\thirdparty\derbyclient-10.14.2.0.jar** into the folder
 **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\kapplets\lib\derbyclient-10.14.2.0.jar**  
