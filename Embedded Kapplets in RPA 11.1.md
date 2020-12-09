@@ -42,7 +42,7 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
 1. Create the Folder **kapplets** in your Kofax RPA installation folder.  
 ![image](https://user-images.githubusercontent.com/47416964/101624156-d3fb7e80-3a19-11eb-8d55-0067e0d59921.png)
 1. Create the file **application.properties** in the kapplets Folder and give it the following content.  
-```
+  ```
 #"Embedded" Kapplets using Development Database
 # 1. Start Development Database
 # 2. Start kapplets.bat as administrator
@@ -76,13 +76,13 @@ kapplets.services.execution.purge.timeout=365
 logging.file=logs/kapplets.log
 management.endpoint.logfile.external-file=logs/server.log
 ```
-1. Create the file **kapplets.bat** in the Kapplets Folder and give it the following content.  
-```
+1. Create the file **kapplets.bat** in the Kapplets Folder and give it the following content.
+  ```
 "%~dp0%..\jre\bin\java.exe" -jar kapplets.war 
 ```
 1. Create the Folder **lib** in your Kapplets folder.  
 ![image](https://user-images.githubusercontent.com/47416964/101624461-3ce2f680-3a1a-11eb-897e-85a3de243d53.png)
-1. copy the file **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\lib\thirdparty\derbyclient-10.14.2.0.jar** into the folder
+1. Copy the file **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\lib\thirdparty\derbyclient-10.14.2.0.jar** into the folder
 **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\kapplets\lib\derbyclient-10.14.2.0.jar**  
 ![image](https://user-images.githubusercontent.com/47416964/101627543-cb597700-3a1e-11eb-80ee-b0368153b491.png)
 
