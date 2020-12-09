@@ -39,9 +39,9 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
 ![image](https://user-images.githubusercontent.com/47416964/101623938-7bc47c80-3a19-11eb-88b5-e5436fac0448.png)  
 *The Development Database is now ready to run Kapplets*
 ## Configuring the Kapplets files
-1. Create the Folder **Kapplets** in your Kofax RPA installation folder.  
+1. Create the Folder **kapplets** in your Kofax RPA installation folder.  
 ![image](https://user-images.githubusercontent.com/47416964/101624156-d3fb7e80-3a19-11eb-8d55-0067e0d59921.png)
-1. Create the file **application.config** in in the Kapplets Folder and give it the following content.  
+1. Create the file **application.config** in the kapplets Folder and give it the following content.  
 ```
 #Stand-alone Kapplets using Development Database
 # 1. Start Development Database
