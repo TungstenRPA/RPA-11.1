@@ -82,11 +82,15 @@ management.endpoint.logfile.external-file=logs/server.log
 ```
 4. Create the Folder **lib** in your Kapplets folder.  
 ![image](https://user-images.githubusercontent.com/47416964/101624461-3ce2f680-3a1a-11eb-897e-85a3de243d53.png)
+1. Copy the file **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\WebApps\kapplets.war** into the folder
+**C:\Program Files\Kofax RPA 11.1.0.0 287 x64\kapplets\**  
 1. Copy the file **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\lib\thirdparty\derbyclient-10.14.2.0.jar** into the folder
 **C:\Program Files\Kofax RPA 11.1.0.0 287 x64\kapplets\lib**  
 ![image](https://user-images.githubusercontent.com/47416964/101627543-cb597700-3a1e-11eb-80ee-b0368153b491.png)
 
-*You have now fully configured Kapplets with the Development Database*
+*You have now fully configured Kapplets with the Development Database. Kapplets will create the **logs** folder.*  
+![image](https://user-images.githubusercontent.com/47416964/101628768-98b07e00-3a20-11eb-8743-4d6a8265be8a.png)
+
 ## Starting Kapplets
 1. Make sure that **Start Development Database** from the Windows Menu/Kofax RPA is running.
 1. Double-click the file **kapplets.bat**. *You will need to run this as a Administrator if you want the log file in **logs\kapplets.log** to be created.*
