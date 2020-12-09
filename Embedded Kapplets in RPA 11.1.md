@@ -95,8 +95,6 @@ management.endpoint.logfile.external-file=logs/server.log
 
 ## Further Steps
 1. Create Kapplet Admins in Management Console and login with them. Don't use the admin/admin user to manage Kapplets. Change the username and password in **application.properties**
->> kapplets.services.mc.connection.username=admin
->> kapplets.services.mc.connection.password=admin
-1. Install Kapplets into Apache Tomcat
-  1. You will need to change the password in **application.config**.
-2. install Kapplets in Tomcat for Production. See Installation Guide for details.
+>> kapplets.services.mc.connection.username=admin  
+kapplets.services.mc.connection.password=admin
+1. install Kapplets in Tomcat for Production. See Installation Guide for details.
