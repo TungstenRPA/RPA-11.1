@@ -89,7 +89,7 @@ management.endpoint.logfile.external-file=logs/server.log
 1. Make sure that **Start Development Database** from the Windows Menu/Kofax RPA is running.
 1. Double-click the file **kapplets.bat**. *You will need to run this as a Administrator if you want the log file in **logs\kapplets.log** to be created.*
 1. Wait until you see the message **QuartzScheduler_$_NON_CLUSTERED started.**
-1. Open Kapplets at [http://localhost:8080/kapplets] (case sensitive!)
+1. Open Kapplets at [http://localhost:8080/kapplets](http://localhost:8080/kapplets) (case sensitive!)
 1. Login with admin/admin.  
 ![image](https://user-images.githubusercontent.com/47416964/101625373-9861b400-3a1b-11eb-84b2-9a8fe9bf8ab0.png)
 
