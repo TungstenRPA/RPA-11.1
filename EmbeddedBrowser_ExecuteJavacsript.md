@@ -26,6 +26,7 @@ If your javascript is dynamic, use **" \n"** for each line and append each line 
 You can use [CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp) with [document.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) to find an HTML element in the webpage.  
 To easily find a CSS Selector,  click on any element and add a **Found Location Guard**.  
 ![image](https://user-images.githubusercontent.com/47416964/102635403-8dadca00-4153-11eb-8ff6-87147590482b.png)
+
 Then expand the Guard and you will see the selector in the **Component**.  
 ![image](https://user-images.githubusercontent.com/47416964/102635524-bcc43b80-4153-11eb-8171-0ada773cc84d.png)
 
