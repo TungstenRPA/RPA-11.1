@@ -16,16 +16,17 @@ The **return** step returns a value back to the robot.
 })();  //this final () is what actually executes the self-invoking function
 ```
 ## Tip - How to use variables in JavasScript
-If your JavaScript is dynamic, use **" \n"** at the end of each line and start each new line with **+** for readibility.
+If your JavaScript is dynamic, use **" \n"** at the end of each line and end each line except the last with **+** for readibility.
 *This example replaces the value of the first *H3* in the document with "DEF" and returns the same value to the robot*
 ```
-"(function(){\n"
-+"  let d=document.querySelector(\"H3\");\n"
-+"  d.innerHTML=\""+value+"\";\n"
-+"  return d.innerHTML;\n"
-+"})();"
+"(function(){\n"+
+"  let d=document.querySelector(\"H3\");\n"+
+"  d.innerHTML=\""+value+"\";\n"+
+"  return d.innerHTML;\n"+
+"})();"
 ```
-![image](https://user-images.githubusercontent.com/47416964/102634819-aec1eb00-4152-11eb-9cfc-6f2f341ecf34.png)
+![image](https://user-images.githubusercontent.com/47416964/102636811-67892980-4155-11eb-8861-1119073e711d.png)
+
 ## Tip - how to easily find Selectors
 You can use [CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp) with [document.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) to find an HTML element in the webpage.  
 To easily find a CSS Selector,  click on any element and add a **Found Location Guard**.  
