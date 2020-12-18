@@ -1,12 +1,13 @@
-# Execute Javascript in Embedded Browser
-With  RPA11.1, you can execute javascript in the Embedded Browser (Chromium) using the Action **Execute Javascript**.  
+# Execute JavasScript in Embedded Browser
+With  RPA11.1, you can execute JavasScript in the Embedded Browser (Chromium) using the Action **Execute JavasScript**.  
 It is found in the right-click menu in the App Tab above the Browser Window.  
 ![image](https://user-images.githubusercontent.com/47416964/102634150-b6cd5b00-4151-11eb-968b-c8922781a111.png)
 
-The **Execute Javascript** step requires text input for the javascript and a text output to hold the Execution results.  
+The **Execute JavasScript** step requires one **text input** for the javascript and one **text output** to hold the Execution results.  
 ![image](https://user-images.githubusercontent.com/47416964/102635725-001eaa00-4154-11eb-98e5-e4726ece9100.png)
 
-The javascript must be of this form.
+The JavasScript must be in the form of a [Self-invoking function](https://www.w3schools.com/js/js_function_definition.asp).
+The **return** step returns a value back to the robot.  
 ```javascript
 (function(){
   let d=document.querySelector("H3");
@@ -14,8 +15,8 @@ The javascript must be of this form.
   return "success";
 })();
 ```
-## Tip - How to use variables in javascript
-If your javascript is dynamic, use **" \n"** for each line and append each line with **+**  
+## Tip - How to use variables in JavasScript
+If your JavasScript is dynamic, use **" \n"** for each line and append each line with **+** for readibility.
 *This example replaces the value of the first *H3* in the document with "DEF" and returns the same value to the robot*
 ```
 "(function(){\n"
