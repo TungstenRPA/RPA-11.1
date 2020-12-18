@@ -16,7 +16,7 @@ The **return** step returns a value back to the robot.
 })();  //this final () is what actually executes the self-invoking function
 ```
 ## Tip - How to use variables in JavasScript
-If your JavaScript is dynamic, use **" \n"** for each line and append each line with **+** for readibility.
+If your JavaScript is dynamic, use **" \n"** at the end of each line and start each new line with **+** for readibility.
 *This example replaces the value of the first *H3* in the document with "DEF" and returns the same value to the robot*
 ```
 "(function(){\n"
