@@ -1,5 +1,5 @@
 # Execute Javascript in Embedded Browser
-You can now execute javascript in the Embedded Browser using the Action **Execute Javascript**.  It is found in the right-click menu in the App Tab above the Browser  
+With  RPA11.1, you can execute javascript in the Embedded Browser (Chromium) using the Action **Execute Javascript**.  It is found in the right-click menu in the App Tab above the Browser  
 ![image](https://user-images.githubusercontent.com/47416964/102634150-b6cd5b00-4151-11eb-968b-c8922781a111.png)
 
 The **Execute Javascript** step requires text input for the javascript and a text output to hold the Execution results.  
