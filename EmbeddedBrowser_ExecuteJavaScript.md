@@ -13,7 +13,7 @@ The **return** step returns a value back to the robot.
   let d=document.querySelector("H3");
   d.innerHTML="ABC";
   return "success";
-})();
+})();  //this final () is what actually executes the self-invoking function
 ```
 ## Tip - How to use variables in JavasScript
 If your JavaScript is dynamic, use **" \n"** for each line and append each line with **+** for readibility.
