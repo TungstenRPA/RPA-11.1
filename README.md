@@ -11,8 +11,9 @@ Download a free trial license for Kofax RPA **11.0** at [www.kofax.com](https://
 Ask your questions about Kofax RPA at [community.kofax.com](https://community.kofax.com/)  
 Find support answers about Kofax RPA at [knowledge.kofax.com](https://knowledge.kofax.com/Robotic_Process_Automation)  
 Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https://smarthub.kofax.com/apps/?product=Kofax+RPA)  
+"Out-of-the-box" Kapplets in RPA 11.1 without an external database is now [possible](Embedded_Kapplets_in_RPA_11.1.md)  
 [Feedback, errors, corrections and requests for new guides](https://github.com/KofaxRPA/RPA-11.1/issues/new) are very welcome! 
-"out-of-the-box" Kapplets in RPA 11.1 without an external database is now [possible](Embedded_Kapplets_in_RPA_11.1.md).
+
 
 ## Management Console New Features
 * User Management is permanently turned on. Default user is **admin**, password **admin**. [Getting Started Guide to User Management in Kofax RPA](https://github.com/KofaxRPA/RPA-11.1/blob/main/UserManagement.md#user-management-in-kofax-rpa-111)
