@@ -5,7 +5,7 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 * Configure IMAP access to GMail, Office365 or IMAP as your email provider in **ManagementConsole/Settings/EmailAccounts**.  
 > *If you are using GMail you will need to create a [GMail App Password](https://support.google.com/accounts/answer/185833?hl=en)* to prevent security warnings from Google.
 * Press *Test* to ensure that it connects successfully. If it fails, check your password or firewall.
-## Build a simple robot to get some emails in EML format.
+## Get sample emails in EML format.
 * You will need to get some emails in EML format so that you can build your robot. This is solving the "chicken & egg" problem in that you need a robot to get an email but you need an email to build the robot.
 
 *Quick Tip : Download an email from your email client in **eml** format. For Office/Exchange, go to the [webclient](https://outlook.office365.com/mail/), create a new email and drag your robot email into the new mail. You can download the attached email in eml format.*  
