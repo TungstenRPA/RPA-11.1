@@ -10,7 +10,7 @@ Robot Queueing has three steps
 * Optionally call **/mc/tasks/getRobotOutput/{ticket}** to see the robot progress (**Queued, Running, Finished, Error**) or its results if it has finished.
 
 You can download the sample **QueueRobot.robot**, **Queue.type** and **Test Robot** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/QueueRobot)
-## Adding credentials
+## Adding credentials to the "REST Step"
 Robot Queuing is quite easy, but you have to be careful of two things.
 * You can enter credentials here from version RPA 11.1.0.2, (19 Dec 2020) or later 
 ![image](https://user-images.githubusercontent.com/47416964/100008521-daf58080-2dcd-11eb-9d87-3cac1f88c76a.png)  
