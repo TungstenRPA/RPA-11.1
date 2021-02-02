@@ -13,10 +13,9 @@ You can download the sample **QueueRobot.robot**, **Queue.type** and **Test Robo
 
 ## Base64 encoding
 Robot Queuing is quite easy, but you have to be careful of two things.
-* You must use *pre-emptive* [Basic Access Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication#Client_side).  
-You cannot enter credentials here, (but this will be fixed in RPA 11.2)  
+* You can enter credentials here from version RPA 11.1.0.2, (19 Dec 2020) or later 
 ![image](https://user-images.githubusercontent.com/47416964/100008521-daf58080-2dcd-11eb-9d87-3cac1f88c76a.png)  
-you must [Base64 encode](https://en.wikipedia.org/wiki/Base64#Examples) them and enter them here  
+for earlier versions you  must use *pre-emptive* [Basic Access Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) and [Base64 encode](https://en.wikipedia.org/wiki/Base64#Examples) them and enter them here  
 ![image](https://user-images.githubusercontent.com/47416964/100008642-fe203000-2dcd-11eb-8480-9eedbac12d7d.png)  
 The 4th converter adds **Authorization: Basic** before the Text.
 
