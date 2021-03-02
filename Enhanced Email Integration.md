@@ -1,5 +1,7 @@
 # Enhanced Email Integration in Kofax RPA 11.1
-Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Each email is processed individually by a robot. The robot has access to all headers including timestamps, sender, recipient and CC, subject, Text Body, HTML Body and **all** attachments, both images and files. After your robot has successfully processed the email, the email is moved to the subfolder **Finished**, otherwise to the **Error** folder on your Email Server.
+Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Each email is processed individually by a robot. The robot has access to all headers including timestamps, sender, recipient and CC, subject, Text Body, HTML Body and **all** attachments, both images and files. After your robot has successfully processed the email, the email is moved to the subfolder **Finished**, otherwise to the **Error** folder on your Email Server.  
+
+Kofax RPA 11.1 introduces a new web-robot step called **Extract from Email**. It can be found in the "Extract" submenu.
 
 ## Configure Email Accounts in Management Console
 * Configure IMAP access to GMail, Office365 or IMAP as your email provider in **ManagementConsole/Settings/EmailAccounts**.  
@@ -44,6 +46,7 @@ Kofax RPA can read emails from a folder in GMail, Office365 or IMAP provider. Ea
 You know have a few sample emails in the database.
 * Download robot **Email_LoadfromDatabase** from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email). This robot loops through all of the emails you sent to RPA.  
 ![image](https://user-images.githubusercontent.com/47416964/99875974-f9a01f80-2bf3-11eb-8a4e-404af8a0fbf1.png)  
+* Note the third step **Extract from Email**. It converts the email into a webpage which makes it easy to extract email fields, text body, html body and all attachments.  
 This robot only shows the content of the emails and you can use it to build your solution. When your robot is ready for production you will need to delete the first two database steps.
 
 # Handling Character Encoding Problems in Subject and Sender
