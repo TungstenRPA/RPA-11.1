@@ -21,7 +21,7 @@ Kofax RPA 11.1 introduces a new web-robot step called **Extract from Email**. It
 * Add a **Store in Database** Step.  
 ![image](https://user-images.githubusercontent.com/47416964/99876058-9e226180-2bf4-11eb-9122-7cca0d598065.png)
 * Download the robot and type from [here](https://github.com/KofaxRPA/RPA-11.1/tree/main/Email)
-* Upload the robot to the Management Console.
+* Upload the robot to the Management Console. **Note**. If you upload to a new Project in Management Console, make sure that your Project has a Service cluster configured, otherwise your robot will not run. (ManagementConsole/Admin/Projects/{YourProjectName}/Edit/Services/ServiceCluster.) 
 ## Configure *Email Triggers*
 * open **ManagementConsole/Repository/EmailTriggers**.  
 ![EmailTriggers](https://user-images.githubusercontent.com/47416964/98917769-10949280-24cd-11eb-9e4d-e007bb35ded2.png)
