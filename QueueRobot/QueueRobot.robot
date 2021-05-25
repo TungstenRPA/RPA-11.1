@@ -3,6 +3,7 @@
   <prologue>
     <saved-by-versions>
       <version>11.1.0.0</version>
+      <version>11.1.0.4</version>
     </saved-by-versions>
     <file-type>robot</file-type>
     <referenced-types>
@@ -239,39 +240,25 @@ Make changes to the parameters in the variable "queue"</comment>
           <object class="Transition" serializationversion="3" id="14">
             <property name="name" class="String">Assign Json</property>
             <property name="stepAction" class="AssignVariable" serializationversion="4">
-              <property name="stringExpr" class="Expression" serializationversion="1">
-                <property name="text" class="String">&gt;&gt;{
+              <property name="stringExpr" class="kapow.robot.plugin.common.support.expression.multipletype.StringProcessorsExpression" serializationversion="0">
+                <property name="dataConverters" class="DataConverters">
+                  <element class="GetVariable" serializationversion="2">
+                    <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+                      <property name="name" idref="1"/>
+                    </property>
+                  </element>
+                  <element class="EvaluateExpression" serializationversion="0">
+                    <property name="expression" class="String">&gt;&gt;{
   "priority" : "MEDIUM",
   "robotInfo" : {
                   "robotName" : "RobotToQueue",
                   "projectName" : "Default Project"
                 },
-  "robotInputConfig" : {
-                         "inputObjects" : [
-                                            {
-                                              "variableName" : "input",
-                                              "oauthUserId" : -1,
-                                              "type" : "BASIC",
-                                              "typeName" : "TheInput",
-                                              "attributes" : [
-                                                               {
-                                                                 "name" : "part1",
-                                                                 "value" : "input text"
-                                                               },
-                                                               {
-                                                                 "name" : "part2",
-                                                                 "value" : "input text"
-                                                               },
-                                                               {
-                                                                 "name" : "part3",
-                                                                 "value" : "input text"
-                                                               }
-                                                             ]
-                                            }
-                                          ]
-                       },
+  "robotInputConfig" :&lt;&lt;+INPUT+&gt;&gt;,
   "timeout" : 6000
 }&lt;&lt;</property>
+                  </element>
+                </property>
               </property>
               <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
                 <property name="name" class="String">json</property>
