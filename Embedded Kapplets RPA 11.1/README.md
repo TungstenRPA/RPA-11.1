@@ -22,11 +22,11 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
    <br />
    >![image](https://user-images.githubusercontent.com/47416964/101611603-000f0380-3a0a-11eb-9ce2-8c96e385529b.png)  
 7.  Create a new **Database Mapping**.  
-   <br />
+    <br />
     > ![image](https://user-images.githubusercontent.com/47416964/101610743-f20cb300-3a08-11eb-80b5-05710ea9168d.png)  
 8. Select **Development Database**.  
-   <br />
-   > ![image](https://user-images.githubusercontent.com/47416964/101610959-3304c780-3a09-11eb-9445-523113c219ec.png)
+    <br />
+    > ![image](https://user-images.githubusercontent.com/47416964/101610959-3304c780-3a09-11eb-9445-523113c219ec.png)
 9.  Leave it with the name **objectdb**.  
     <br />
     > ![image](https://user-images.githubusercontent.com/47416964/101611111-62b3cf80-3a09-11eb-87e6-562ad23bf92b.png)
