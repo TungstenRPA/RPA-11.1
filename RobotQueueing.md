@@ -2,6 +2,8 @@
 
 Kofax RPA 11.1 introduces Robot Queueing. You can now push a robot onto the robot queue with any input paramaters from other Robots or from any other program that supports [REST Service Calls](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
+[This Video](https://www.youtube.com/watch?v=it8G5GIe-cA) demonstrates Robot Queuing.
+
 The official documentation for Robot Queueing is in Chapter 3 (page 59) of the [RPA Developer's Guide](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPADevelopersGuide_EN.pdf).
 
 Robot Queueing has three steps
