@@ -1,11 +1,13 @@
-# Changing the Admin Password and User Management in Kofax RPA 11.1
+# User Management in Kofax RPA 11.1 & Modify Admin Password 
 User Management has been permanently turned on in Kofax RPA 11.1
+
 The default user with all permissions is **admin** with password **admin**.  You can use this user to access the Management Console and create other users and groups. 
+
 ![image](https://user-images.githubusercontent.com/47416964/98921125-3754c800-24d1-11eb-9c83-56894a77016c.png)  
 You can also use this user to log into Design Studio, but you *should* create other users for that.
 
-# Creating Users
-* in **ManagementConsole/Admin/Users&Groups** create a group called **developers**.
+# 👨‍👩‍👧‍👦 Creating Users 
+* In **ManagementConsole/Admin/Users&Groups** create a group called **developers**.
 * Create an account and password for each Design Studio user and add them to the group **developers**.
 * Create a user called **Roboserver**, give it a password, a group **roboservers** and add the user to the group.
 * Open the **Default Project** in **ManagementConsole/Admin/Projects** by clicking **⋮** before the project name.  
@@ -19,7 +21,7 @@ You can also use this user to log into Design Studio, but you *should* create ot
 You can add LDAP for user management, and you should also create users and groups for the Roboservers, Synchronizers, MC Admins, Kapplet Admins, API access, Password Managers, Desktop Accounts, etc. See the documentation for further details.  
 See [Robot Lifecycle Management Guide](https://github.com/KofaxRPA/Robot-Lifecycle-Management-Guide/releases) for step-by-step instructions of creating many of these accounts.
 
-# Changing the Admin Password.
+# 🔒Changing the Admin Password.
 There are three places you need to change passwords - inside Management Console, inside the Roboserver Settings and inside the Start Menu command to open the ManagementConsole  
 * in MC you can change the admin password under **Admin/Users&Groups**
 * Select the User name **admin**  and click  **Reset Password**  
@@ -37,7 +39,7 @@ There are three places you need to change passwords - inside Management Console,
 * Kill the **Management Console** Process and shut **Design Studio**.
 * Start Management Console and start Design Studio. You should log into Design Studio with your personal developer account. This is how the Management Console knows who the robot developer is - an important part of [Robot Lifecycle Management](https://github.com/KofaxRPA/Robot-Lifecycle-Management-Guide/blob/master/README.md#getting-started-guide-to-robot-lifecycle-management)
 
-# How to log-out of Design Studio
+# 🔓How to Logout of Design Studio
 * Go to **Menu/Settings/DesignStudioSettings/ManagementConsole** and remove the user name and password or disable *Remember Password*.  
 ![image](https://user-images.githubusercontent.com/47416964/98921637-d2e63880-24d1-11eb-821b-85c91abb036e.png)
 * Close Design Studio
