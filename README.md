@@ -14,7 +14,7 @@ Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https:
 [Feedback, errors, corrections and requests for new guides](https://github.com/KofaxRPA/RPA-11.1/issues/new) are very welcome! 
 
 [Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.1.txt) in RPA 11.1.0.1, Fix Pack 1, 15 November, 2020  
-[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.2.txt) in RPA 11.1.0.4, Fix Pack 2, 19 December, 2020  (PDF Forms are now readable)
+[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.2.txt) in RPA 11.1.0.4, Fix Pack 2, 19 December, 2020  (PDF Forms are now readable)  
 [Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.4.txt) in RPA 11.1.0.4, Fix Pack 2, 23 April, 2021
 
 
