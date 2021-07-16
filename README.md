@@ -2,11 +2,8 @@
 *Click [here](https://github.com/KofaxRPA/RPA-11.2#readme) for Kofax RPA 11.2*.  
 Kofax RPA 11.1 was released on November 12, 2020 with 18 new features including reading emails from GMail & Office365, a brand new PDF viewer, Robot Priorities, Robot Queueing, and integration of [Kofax Omnipage OCR](https://www.kofax.com/Products/omnipage) into Intelligent Screen Automation.  
 
-[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.1.txt) in RPA 11.1, Fix Pack 1, 15 November, 2020  
-[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.2.txt) in RPA 11.1, Fix Pack 2, 19 December, 2020  (PDF Forms are now readable)
-
-[Kofax RPA 11.1 Documentation online](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.1.0_vwsnqu4c9o/RPA.htm)  
-[Kofax RPA 11.1 Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
+[Kofax RPA 11.1.0 Documentation online](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.1.0_vwsnqu4c9o/RPA.htm)  
+[Kofax RPA 11.1.0 Release Notes](https://docshield.kofax.com/RPA/en_US/11.1.0_vwsnqu4c9o/print/KofaxRPAReleaseNotes_11.1.0_EN.pdf)  
 Download Kofax RPA 11.1 at [delivery.kofax.com](https://delivery.kofax.com)  
 Download a free trial license for Kofax RPA **11.0** at [www.kofax.com](https://www.kofax.com/Products/rpa/overview)  
 [Powerpoint of RPA 11.1 New Features Presentation](https://github.com/KofaxRPA/RPA-11.1/raw/main/Whats%20new%20Kofax%20RPA%2011.1%20_%20partner.pptx)  *(many details are only found here!)*  
@@ -15,6 +12,10 @@ Find support answers about Kofax RPA at [knowledge.kofax.com](https://knowledge.
 Download or upload community assets for Kofax RPA at [smarthub.kofax.com](https://smarthub.kofax.com/apps/?product=Kofax+RPA)  
 "Out-of-the-box" Kapplets in RPA 11.1 without an external database is now [possible](Embedded%20Kapplets%20in%20RPA%2011.1.md#kapplets-in-embedded-mode-with-development-database-in-kofax-rpa-111)  
 [Feedback, errors, corrections and requests for new guides](https://github.com/KofaxRPA/RPA-11.1/issues/new) are very welcome! 
+
+[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.1.txt) in RPA 11.1.0.1, Fix Pack 1, 15 November, 2020  
+[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.2.txt) in RPA 11.1.0.4, Fix Pack 2, 19 December, 2020  (PDF Forms are now readable)
+[Changes](https://github.com/KofaxRPA/RPA-11.1/blob/main/Readme-RPA-11.1.0.4.txt) in RPA 11.1.0.4, Fix Pack 2, 23 April, 2021
 
 
 ## Management Console New Features
