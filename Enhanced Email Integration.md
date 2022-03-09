@@ -32,7 +32,7 @@ Kofax RPA 11.1 introduces a new web-robot step called **Extract from Email**. It
 * Drag a few sample emails, some with attachments and some without into the watched folder in your email program. Wait up to 2 minutes.
 * Leave the trigger running so that it responds to any new emails you put in the watch folder.
 * Every 2 minutes Kofax RPA will check the email folder and move every email into the **processing** folder.  
-*If you have installed Kofax RPA on Tomcat you can change this polling interval in **mc-service.xml**.* 
+*If you have installed Kofax RPA on Tomcat you can change this polling interval in **TomcatDir\webapps\ManagementConsole\WEB-INF\spring\mc-service.xml**.* 
 ```xml
 <bean id="robotEmailApplication" class="com.kapowtech.plugging.robotrigger.email.RobotEmailApplication">
       <constructor-arg ref="robotEmailApplicationConfig"/>
