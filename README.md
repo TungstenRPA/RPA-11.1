@@ -1,5 +1,5 @@
 # Kofax RPA 11.1 Getting Started Guides for New Features
-*Click [here](https://github.com/KofaxRPA/RPA-11.2#readme) for Kofax RPA 11.2*.  
+*[Kofax RPA 11.2](https://github.com/KofaxRPA/RPA-11.2#readme)* *[Kofax RPA 11.3](https://github.com/KofaxRPA/RPA-11.3#readme)*   
 Kofax RPA 11.1 was released on November 12, 2020 with 18 new features including 
 * Reading emails from GMail & Office365.
 * A brand new PDF viewer.
