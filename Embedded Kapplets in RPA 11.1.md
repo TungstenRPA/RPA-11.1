@@ -12,10 +12,11 @@ For production you need to install Kofax RPA and Kapplets inside Apache Tomcat a
 
 1. **Start Management Console** from Windows Start Menu/Kofax RPA.
 1. Wait until you see the message *Roboserver successfully activated*.
-1. Start **Design Studio** from Windows Start Menu/Kofax RPA.
-2. Login with user **admin** and password **admin**.
-3. Open any robot *type* from any robot project.
-4. You can skip this next step if **objectdb.db** is already in the project.  
+2. Open Management Console (http://localhost:50080/) and add your license key.
+3. Start **Design Studio** from Windows Start Menu/Kofax RPA.
+4. Login with user **admin** and password **admin**.
+5. Open any robot *type* from any robot project.
+6. You can skip this next step if **objectdb.db** is already in the project.  
 ![image](https://user-images.githubusercontent.com/47416964/101611603-000f0380-3a0a-11eb-9ce2-8c96e385529b.png)  
    * Create a new **Database Mapping**.  
 ![image](https://user-images.githubusercontent.com/47416964/101610743-f20cb300-3a08-11eb-80b5-05710ea9168d.png)  
